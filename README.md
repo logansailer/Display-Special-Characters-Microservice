@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 2. Run the microservice:
 ```bash
-python char_unicode.py
+python3 char_unicode.py
 ```
 
 The service will start on `http://localhost:5000`
@@ -23,7 +23,7 @@ A client-side script (`client.py`) is provided to interact with the microservice
 1. Make sure the microservice is running
 2. Run the client:
 ```bash
-python client.py
+python3 client.py
 ```
 3. Enter a string when prompted
 4. The script will:
