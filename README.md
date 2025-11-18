@@ -32,6 +32,10 @@ python3 client.py
    - Save the response to `output.json`
    - Display the conversion results
 
+**Architecture**
+
+<img width="974" height="914" alt="image" src="https://github.com/user-attachments/assets/982dff52-71bd-46b3-aacc-542fc1160b1d" />
+
 **Example:**
 ```
 Enter a string to convert (special characters will be converted to Unicode):
