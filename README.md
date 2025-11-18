@@ -34,7 +34,8 @@ python3 client.py
 
 **Architecture**
 
-<img width="974" height="914" alt="image" src="https://github.com/user-attachments/assets/982dff52-71bd-46b3-aacc-542fc1160b1d" />
+<img width="405" height="407" alt="image" src="https://github.com/user-attachments/assets/e76ecacc-4ecf-4e10-9928-9765dbb24ffd" />
+
 
 **Example:**
 ```
