@@ -32,7 +32,7 @@ python3 client.py
    - Save the response to `output.json`
    - Display the conversion results
 
-**Architecture**
+## Architecture
 
 <img width="405" height="407" alt="image" src="https://github.com/user-attachments/assets/e76ecacc-4ecf-4e10-9928-9765dbb24ffd" />
 
