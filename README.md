@@ -36,6 +36,12 @@ python3 client.py
 
 <img width="405" height="407" alt="image" src="https://github.com/user-attachments/assets/e76ecacc-4ecf-4e10-9928-9765dbb24ffd" />
 
+*Flow*
+1. User enters string → Client creates `input.json`
+2. Client sends POST request → Microservice converts string
+3. Microservice returns result → Client saves to `output.json`
+4. Client displays results to User
+
 
 **Example:**
 ```
