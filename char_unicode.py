@@ -1,8 +1,7 @@
 from flask import Flask, request, jsonify
-import json
-import re
 
 app = Flask(__name__)
+
 
 def convert_to_unicode_escape(text):
     """
@@ -19,6 +18,7 @@ def convert_to_unicode_escape(text):
             unicode_escape = f"\\u{ord(char):04X}"
             result.append(unicode_escape)
     return ''.join(result)
+
 
 @app.route('/convert', methods=['POST'])
 def convert_string():
