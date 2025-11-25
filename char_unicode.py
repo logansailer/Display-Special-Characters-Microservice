@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+import os
 
 app = Flask(__name__)
 
@@ -78,7 +79,8 @@ def health_check():
 
 
 if __name__ == '__main__':
-    print("Starting Character to Unicode Converter Microservice...")
-    print("API endpoint: http://localhost:5000/convert")
-    print("Health check: http://localhost:5000/health")
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    port = int(os.getenv("PORT", "5000"))
+    debug = os.getenv("FLASK_DEBUG", "false").lower() == "true"
+    print(f"API endpoint: http://localhost:{port}/convert")
+    print(f"Health check: http://localhost:{port}/health")
+    app.run(host='0.0.0.0', port=port, debug=debug)
