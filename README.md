@@ -34,8 +34,6 @@ python3 client.py
 
 ## Architecture
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/board/w8eLCQVEEqJ1GzvwrEPXcu/UML-Sequence-Diagram?node-id=0-1&embed-host=share" allowfullscreen></iframe>
-
 
 
 *Flow*
@@ -44,6 +42,7 @@ python3 client.py
 3. Microservice returns result → Client saves to `output.json`
 4. Client displays results to User
 
+<img width="1116" height="1196" alt="UML Sequence Diagram" src="https://github.com/user-attachments/assets/82e0295b-51ae-4eb5-b182-c3f810e49d87" />
 
 **Example:**
 ```
