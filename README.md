@@ -34,7 +34,8 @@ python3 client.py
 
 ## Architecture
 
-<img width="405" height="407" alt="image" src="https://github.com/user-attachments/assets/e76ecacc-4ecf-4e10-9928-9765dbb24ffd" />
+<img width="768" height="406" alt="image" src="https://github.com/user-attachments/assets/d885942f-e97b-41c2-944c-17392b5a532a" />
+
 
 *Flow*
 1. User enters string → Client creates `input.json`
