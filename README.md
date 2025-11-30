@@ -34,7 +34,18 @@ python3 client.py
 
 ## Architecture
 
-<img width="768" height="406" alt="image" src="https://github.com/user-attachments/assets/d885942f-e97b-41c2-944c-17392b5a532a" />
+sequenceDiagram
+    actor User
+    participant Client
+    participant Microservice
+
+    User->>Client: Enter input string
+    Client->>Client: Create input.json
+    Client->>Microservice: POST /convert with JSON
+    Microservice->>Microservice: convert_to_unicode_escape()
+    Microservice-->>Client: JSON with converted_string
+    Client->>Client: Save output.json
+    Client-->>User: Display results
 
 
 *Flow*
